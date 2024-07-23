@@ -58,6 +58,6 @@ public class S3FileManager {
         s3.uploadFile("sample.txt", "/Users/mohansai/Documents/aws/java/sample.txt");
         s3.listFiles();
         s3.downloadFile("sample.txt", "/Users/mohansai/Documents/aws/java/output_sample.txt");
-        //s3.deleteFile("sample.txt");
+        s3.deleteFile("sample.txt");
     }
 }
